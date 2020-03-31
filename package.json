@@ -1,6 +1,6 @@
 {
   "name": "making-cli",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "description": "A cli maker for init front-end project",
   "repository": "shadowings-zy/making-cli",
   "bin": {

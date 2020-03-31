@@ -1,22 +1,22 @@
-# cli-maker（中文）
+# making-cli（中文）
 
 一个快速制作前端项目脚手架的工具。
 
 ## 使用说明
 
-首先我们需要从 NPM 上下载`cli-maker`：
+首先我们需要从 NPM 上下载`making-cli`：
 
 ```bash
-npm install -g cli-maker
+npm install -g making-cli
 ```
 
 之后，我们可以直接在命令行中使用它：
 
 ```bash
-cli-maker --name xxxxx --output /aaa/bbb --config /ccc/ddd.js
+making-cli --name xxxxx --output /aaa/bbb --config /ccc/ddd.js
 ```
 
-`cli-maker`的配置项如下:
+`making-cli`的配置项如下:
 
 | option            | description        |
 | ----------------- | ------------------ |
@@ -26,8 +26,8 @@ cli-maker --name xxxxx --output /aaa/bbb --config /ccc/ddd.js
 
 ## 配置文件说明
 
-`cli-maker`需要根据开发者自定义的脚手架配置文件来生成项目的脚手架。
-`cli-maker`的工作流程很简单：
+`making-cli`需要根据开发者自定义的脚手架配置文件来生成项目的脚手架。
+`making-cli`的工作流程很简单：
 1、用户输入相关参数。
 2、根据用户输入的参数判断对应的模板文件的 git 仓库地址。
 3、clone git 仓库到对应位置并执行 npm install。
@@ -101,22 +101,22 @@ const configProject = (program) => {
 module.exports = configProject
 ```
 
-# cli-maker(English)
+# making-cli(English)
 
 A cli generator for making front-end project cli easily.
 
 ## usage
 
-First, you need to install cli-maker from NPM.
-`npm install -g cli-maker`
+First, you need to install making-cli from NPM.
+`npm install -g making-cli`
 
-Next, you need to use cli-maker in this way:
+Next, you need to use making-cli in this way:
 
 ```bash
-cli-maker --name xxxxx --output /aaa/bbb --config /ccc/ddd.js
+making-cli --name xxxxx --output /aaa/bbb --config /ccc/ddd.js
 ```
 
-the option of `cli-maker` is:
+the option of `making-cli` is:
 
 | option            | description                          |
 | ----------------- | ------------------------------------ |
@@ -126,8 +126,8 @@ the option of `cli-maker` is:
 
 ## configuration file
 
-`cli-maker` needs to generate the cli by customizing cli configuration file.
-The workflow of cli-maker is simple:
+`making-cli` needs to generate the cli by customizing cli configuration file.
+The workflow of making-cli is simple:
 
 1. The user enters relevant parameters.
 2. Determine the git repo path of the project template according to the parameters entered by the user.

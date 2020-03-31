@@ -1,19 +1,19 @@
-# cli-maker(English)
+# making-cli(English)
 
 A cli generator for making front-end project cli easily.
 
 ## usage
 
-First, you need to install cli-maker from NPM.
-`npm install -g cli-maker`
+First, you need to install making-cli from NPM.
+`npm install -g making-cli`
 
-Next, you need to use cli-maker in this way:
+Next, you need to use making-cli in this way:
 
 ```bash
-cli-maker --name xxxxx --output /aaa/bbb --config /ccc/ddd.js
+making-cli --name xxxxx --output /aaa/bbb --config /ccc/ddd.js
 ```
 
-the option of `cli-maker` is:
+the option of `making-cli` is:
 
 | option            | description                          |
 | ----------------- | ------------------------------------ |
@@ -23,8 +23,8 @@ the option of `cli-maker` is:
 
 ## configuration file
 
-`cli-maker` needs to generate the cli by customizing cli configuration file.
-The workflow of cli-maker is simple:
+`making-cli` needs to generate the cli by customizing cli configuration file.
+The workflow of making-cli is simple:
 
 1. The user enters relevant parameters.
 2. Determine the git repo path of the project template according to the parameters entered by the user.
