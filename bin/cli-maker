@@ -1,0 +1,12 @@
+#! /usr/bin/env node
+
+const program = require('commander')
+const makeCli = require('../src/makeCli')
+
+program
+  .option('--name [name]', '脚手架名称')
+  .option('--config [config]', '脚手架配置目录')
+  .option('--output [output]', '输出目录')
+  .parse(process.argv)
+
+makeCli(program)

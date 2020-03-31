@@ -1,0 +1,11 @@
+#! /usr/bin/env node
+
+const program = require('commander')
+const initProject = require('../src/project')
+const config = require('../src/config')
+
+program.option('--name [name]', '项目目录名').parse(process.argv)
+
+const { prompts, setProjectName, setProjectGitRepo } = config(program)
+
+initProject(prompts, setProjectName, setProjectGitRepo)
