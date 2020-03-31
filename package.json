@@ -1,10 +1,10 @@
 {
-  "name": "cli-maker",
+  "name": "making-cli",
   "version": "0.0.1",
   "description": "A cli maker for init front-end project",
-  "repository": "shadowings-zy/cli-maker",
+  "repository": "shadowings-zy/making-cli",
   "bin": {
-    "cli-maker": "bin/cli-maker"
+    "making-cli": "bin/making-cli"
   },
   "keywords": [
     "cli",
@@ -16,7 +16,7 @@
     "template",
     "README.md"
   ],
-  "author": "shadowings",
+  "author": "shadowings-zy",
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.2",

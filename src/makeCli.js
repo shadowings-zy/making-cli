@@ -12,7 +12,7 @@ const makeCli = (program) => {
   const name = program.name
   const config = program.config
   const output = program.output
-  const currentTemplate = path.join(process.cwd(), 'template')
+  const currentTemplate = path.join(__dirname, 'template')
   const outputDir = path.join(output, name)
   const outputConfig = path.join(outputDir, 'src', 'config.js')
   const outputPackageJson = path.join(outputDir, 'package.json')
